@@ -12,11 +12,13 @@ const Home = () => {
   const interests = [
     " . . . ",
     3000,
-    "DevOps",
-    4000,
-    "Frontend Development",
+    "Frontend Developer",
     2000,
-    "Backend Development",
+    "Backend Developer",
+    2000,
+    "Graphic Designing",
+    2000,
+    "Digital Marketing",
     2000,
   ];
 
@@ -30,7 +32,7 @@ const Home = () => {
           <AnimatedWrapper delay={0.8} animateFrom="left">
             <img
               src={Avatar}
-              alt="Dhawal's Avatar"
+              alt="Mustafa's Avatar"
               width="auto"
               height="auto"
               loading="eager"
@@ -45,7 +47,7 @@ const Home = () => {
               <span className="block">Hi There, </span>
               <span>I'm </span>
               <span className="text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text">
-                Dhawal
+                Mustafa
               </span>
             </h1>
           </AnimatedWrapper>
