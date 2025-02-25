@@ -3,7 +3,6 @@ import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-scroll";
 
 import AnimatedWrapper from "./ui/AnimatedWrapper";
-j;
 import { ArrowDown } from "./Icons";
 import Avatar from "../assets/Avatars/one.svg";
 import contactInfo from "../data/contactInfo";

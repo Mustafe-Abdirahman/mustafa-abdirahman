@@ -2,8 +2,6 @@ import React from "react";
 
 import AnimatedWrapper from "./ui/AnimatedWrapper";
 
-import { Download } from "./Icons";
-import resume from "../assets/resume.pdf";
 import profile from "../assets/legend.png";
 import SectionHeading from "./SectionHeading";
 import techStack from "../data/techStack";
