@@ -4,7 +4,7 @@ import AnimatedWrapper from "./ui/AnimatedWrapper";
 
 import { Download } from "./Icons";
 import resume from "../assets/resume.pdf";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/legend.png";
 import SectionHeading from "./SectionHeading";
 import techStack from "../data/techStack";
 
@@ -36,27 +36,21 @@ const About = () => {
             <h3 className="text-2xl xs:text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-semibold ">
               Hi, I'm{" "}
               <span className="text-cyan-500 block xs:inline">
-                Dhawal Vijayvargiya
+                Mustafa Abdirahman
               </span>
             </h3>
           </AnimatedWrapper>
           <div className="text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify">
             <AnimatedWrapper>
               <p className="leading-tight">
-                Full Stack and DevOps Enthusiast, based in India.
-                Currently working as Jr. DevOps Engineer @ GKMIT Ltd. Udaipur.
+                Full Stack Developer & Tech Enthusiast, based in Somaliland.
+                Currently working as a Software Developer & System Supporter.
               </p>
             </AnimatedWrapper>
             <AnimatedWrapper>
               <p className="leading-tight">
-                I also love to make beautiful Web Applications with technologies
-                like MERN Stack, NextJs.
-              </p>
-            </AnimatedWrapper>
-            <AnimatedWrapper>
-              <p className="leading-tight">
-                Currently pursuing Master's in Computer Applications at
-                Geetanjali Institute of Technical Studies, Udaipur, (Rajasthan).
+                I have a passion for building dynamic and high-performing web
+                applications using modern technologies
               </p>
             </AnimatedWrapper>
           </div>
@@ -79,24 +73,6 @@ const About = () => {
                   })}
                 </ul>
               </AnimatedWrapper>
-            </div>
-          </AnimatedWrapper>
-          <AnimatedWrapper>
-            <div className="py-5">
-              <a
-                href={resume}
-                target="_blank"
-                rel="noreferrer"
-                download={true}
-                className="z-30  group bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center gap-3 px-6 py-3  rounded-lg ease-linear duration-300 delay-75 transition-all cursor-pointer w-36 relative"
-              >
-                <span className="pr-6 sm:pr-0 sm:group-hover:-translate-x-5 sm:transition-transform delay-[400ms] ease-out">
-                  Resume
-                </span>
-                <span className="absolute right-5 sm:scale-0 transition-all group-hover:scale-100 ease-in delay-200 animate-pulse duration-500 ">
-                  <Download />
-                </span>
-              </a>
             </div>
           </AnimatedWrapper>
         </div>

@@ -14,14 +14,14 @@ const Projects = () => {
         <AnimatedWrapper>
           <SectionHeading
             heading="Projects"
-            secondHeading="Check Out Some of my work"
+            secondHeading="Explore some of  My Projects"
           />
         </AnimatedWrapper>
 
         <GridLayout style="sm:grid-cols-2 md:max-w-2xl mx-auto lg:max-w-none lg:grid-cols-3 gap-2">
           {personalProjects.map((project, i) => {
-              return (
-                <AnimatedWrapper
+            return (
+              <AnimatedWrapper
                 key={project.name}
                 animateFrom="bottom"
                 delay={0.8}

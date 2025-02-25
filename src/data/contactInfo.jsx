@@ -22,13 +22,7 @@ const contactInfo = [
     link: "https://t.me/MustafaAbdirahman",
     icon: <Telegram />,
   },
-  {
-    id: 5,
-    name: "Resume",
-    link: ResumeLink,
-    icon: <Resume />,
-    download: true,
-  },
+
   // {
   //   id: 6,
   //   name: "Twitter",
