@@ -2,7 +2,7 @@ import React from "react";
 
 import AnimatedWrapper from "./ui/AnimatedWrapper";
 
-import profile from "../assets/legend.png";
+import profile from "../assets/Legend.png";
 import SectionHeading from "./SectionHeading";
 import techStack from "../data/techStack";
 
